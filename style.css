@@ -1,0 +1,58 @@
+<style>
+/* Status Box Styles */
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Ensure content doesn't overlap border */
+}
+
+/* Status Indicator Container */
+.status-indicator-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Status Indicator Styles */
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* Online Status */
+.status-indicator.online {
+    background-color: #2ecc71; /* Green color for online */
+}
+
+/* Offline Status */
+.status-indicator.offline {
+    background-color: #e74c3c; /* Red color for offline */
+}
+
+
+
+.status-text {
+    font-size: 14px;
+    color: #555;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.status.product-card {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #efefef;
+    color: white;
+    padding: 5px 10px;
+    z-index: 99;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+</style>
